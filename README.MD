@@ -26,13 +26,13 @@ O AWS Step Functions utiliza um fluxo de trabalho (workflow) composto por passos
 
 Conforme um artigo do site LucidChart: 
 
-    Uma máquina de estados é qualquer dispositivo que armazena o status de um objeto em um determinado momento e pode mudar de status ou causar outras ações baseado na entrada que recebe. Estados indicam as diferentes combinações de informações que um objeto pode conter, e não como ele se comporta.
+Uma máquina de estados é qualquer dispositivo que armazena o status de um objeto em um determinado momento e pode mudar de status ou causar outras ações baseado na entrada que recebe. Estados indicam as diferentes combinações de informações que um objeto pode conter, e não como ele se comporta.
 
 ### O que é o Amazon States Language?
 
 Conforme a documentação oficial da AWS:
 
-    A Amazon States Language é uma linguagem JSON baseada e estruturada usada para definir sua máquina de estados, uma coleção de estados que pode trabalhar (Taskestados), determinar para quais estados fazer a transição (Choiceestados), interromper uma execução com um erro (Failestados) e assim por diante.
+A Amazon States Language é uma linguagem JSON baseada e estruturada usada para definir sua máquina de estados, uma coleção de estados que pode trabalhar (Taskestados), determinar para quais estados fazer a transição (Choiceestados), interromper uma execução com um erro (Failestados) e assim por diante.
 
 Exemplo de arquivo ASL:
 
